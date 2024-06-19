@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="T0N-CM-Cwy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Mazi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3h-w0-cec">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="OC0-RN-NiI">
+                                <rect key="frame" x="25" y="79" width="294" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="haj-Sb-lDi"/>
+                                </connections>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3Z-oG-IDJ">
+                                <rect key="frame" x="315" y="89" width="53" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="d45-8p-HiR"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="lokasyon"/>
+                                <connections>
+                                    <action selector="LocationButtonHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SlF-55-wrU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OC0-RN-NiI" secondAttribute="bottom" constant="646" id="1Wb-Bh-JWI"/>
+                            <constraint firstItem="i3Z-oG-IDJ" firstAttribute="leading" secondItem="OC0-RN-NiI" secondAttribute="trailing" constant="-4" id="2Xr-eF-OvA"/>
+                            <constraint firstItem="OC0-RN-NiI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="91m-Zc-swR"/>
+                            <constraint firstItem="OC0-RN-NiI" firstAttribute="bottom" secondItem="i3Z-oG-IDJ" secondAttribute="bottom" constant="5" id="L2r-BF-TOk"/>
+                            <constraint firstItem="i3Z-oG-IDJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-9" id="SE7-kU-Yun"/>
+                            <constraint firstItem="OC0-RN-NiI" firstAttribute="top" secondItem="i3Z-oG-IDJ" secondAttribute="top" constant="-10" id="Wix-aq-zx4"/>
+                            <constraint firstItem="t3h-w0-cec" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bYc-hy-NJD"/>
+                            <constraint firstItem="OC0-RN-NiI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="l44-Pi-JWp"/>
+                            <constraint firstItem="t3h-w0-cec" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-59" id="nvF-RU-jsx"/>
+                            <constraint firstItem="t3h-w0-cec" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rI2-o1-WnO"/>
+                            <constraint firstItem="t3h-w0-cec" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yi6-ZH-5Ip"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Group 292" selectedImage="Group 291" id="UkU-67-PQh"/>
+                    <connections>
+                        <outlet property="LocationButtonOut" destination="i3Z-oG-IDJ" id="muf-BT-f0K"/>
+                        <outlet property="mapView" destination="t3h-w0-cec" id="vc4-mL-nX4"/>
+                        <outlet property="searchBarHome" destination="OC0-RN-NiI" id="pNO-NT-U3i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1315.2671755725191" y="441.54929577464793"/>
+        </scene>
+        <!--Add-->
+        <scene sceneID="hER-1e-lWF">
+            <objects>
+                <viewController storyboardIdentifier="AddViewController" id="iUy-JW-cBV" customClass="AddViewController" customModule="Mazi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLh-x4-ZzL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HIS-bg-qw7"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Add" image="Group 297" selectedImage="Group 297" id="Euw-f6-UHd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIK-cA-gjr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-590" y="442"/>
+        </scene>
+        <!--Archive-->
+        <scene sceneID="Zvb-IK-Qse">
+            <objects>
+                <viewController storyboardIdentifier="ArchiveViewController" id="APV-HU-hbG" customClass="ArchiveViewController" customModule="Mazi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXE-Ra-71M">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="R1d-d5-qMB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Archive" image="Group 295" selectedImage="Group 296" id="h3t-bY-mZt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eK9-Ia-RpL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="442"/>
+        </scene>
+        <!--Main Tab Controller-->
+        <scene sceneID="25c-nH-YaP">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabController" automaticallyAdjustsScrollViewInsets="NO" id="T0N-CM-Cwy" customClass="MainTabController" customModule="Mazi" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2kb-Wt-GM0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="oXh-a4-PoS"/>
+                        <segue destination="iUy-JW-cBV" kind="relationship" relationship="viewControllers" id="Ty6-zy-rOd"/>
+                        <segue destination="APV-HU-hbG" kind="relationship" relationship="viewControllers" id="nPe-Uc-3Am"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qde-w9-ic4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-727.48091603053433" y="-297.18309859154931"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group 291" width="25" height="25"/>
+        <image name="Group 292" width="25" height="25"/>
+        <image name="Group 295" width="25" height="25"/>
+        <image name="Group 296" width="25" height="25"/>
+        <image name="Group 297" width="26.5" height="25"/>
+        <image name="lokasyon" width="35" height="37"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
