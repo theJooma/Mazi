@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0119ABB22C2CAA0D0053CB05 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119ABB12C2CAA0D0053CB05 /* CustomAnnotation.swift */; };
+		0137196F2C244E360025951D /* addBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0137196E2C244E360025951D /* addBottomSheet.xib */; };
+		013719712C24527F0025951D /* addBottomSheetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013719702C24527F0025951D /* addBottomSheetVc.swift */; };
 		015C154B2C20334500B35BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C154A2C20334500B35BB6 /* AppDelegate.swift */; };
 		015C154D2C20334500B35BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015C154C2C20334500B35BB6 /* SceneDelegate.swift */; };
 		015C15522C20334500B35BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 015C15512C20334500B35BB6 /* Base */; };
-		015C15552C20334500B35BB6 /* Mazi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 015C15532C20334500B35BB6 /* Mazi.xcdatamodeld */; };
+		015C15552C20334500B35BB6 /* Scout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 015C15532C20334500B35BB6 /* Scout.xcdatamodeld */; };
 		015C15572C20334600B35BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015C15562C20334600B35BB6 /* Assets.xcassets */; };
 		015C155A2C20334600B35BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 015C15592C20334600B35BB6 /* Base */; };
 		01A17F3B2C221C1D00B7FC79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A17F3A2C221C1D00B7FC79 /* HomeViewController.swift */; };
 		01A17F3D2C221C6E00B7FC79 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A17F3C2C221C6E00B7FC79 /* AddViewController.swift */; };
 		01A17F3F2C221CA900B7FC79 /* ArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A17F3E2C221CA900B7FC79 /* ArchiveViewController.swift */; };
 		01A17F412C221F5400B7FC79 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A17F402C221F5300B7FC79 /* MainTabController.swift */; };
+		01ADB3712C28B5DF00057F45 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADB36F2C28B5DF00057F45 /* Location+CoreDataClass.swift */; };
+		01ADB3722C28B5DF00057F45 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ADB3702C28B5DF00057F45 /* Location+CoreDataProperties.swift */; };
+		01D7E83C2C2D568F00FE8664 /* HomeVCBottomSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D7E83B2C2D568F00FE8664 /* HomeVCBottomSheet.xib */; };
+		01D7E83E2C2D5BCF00FE8664 /* HomeBottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7E83D2C2D5BCF00FE8664 /* HomeBottomSheetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015C15472C20334500B35BB6 /* Mazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0119ABB12C2CAA0D0053CB05 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		0137196E2C244E360025951D /* addBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addBottomSheet.xib; sourceTree = "<group>"; };
+		013719702C24527F0025951D /* addBottomSheetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBottomSheetVc.swift; sourceTree = "<group>"; };
+		015C15472C20334500B35BB6 /* Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		015C154A2C20334500B35BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015C154C2C20334500B35BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		015C15512C20334500B35BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,6 +42,10 @@
 		01A17F3C2C221C6E00B7FC79 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		01A17F3E2C221CA900B7FC79 /* ArchiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveViewController.swift; sourceTree = "<group>"; };
 		01A17F402C221F5300B7FC79 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		01ADB36F2C28B5DF00057F45 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		01ADB3702C28B5DF00057F45 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		01D7E83B2C2D568F00FE8664 /* HomeVCBottomSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVCBottomSheet.xib; sourceTree = "<group>"; };
+		01D7E83D2C2D5BCF00FE8664 /* HomeBottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomSheetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +62,9 @@
 		015C153E2C20334500B35BB6 = {
 			isa = PBXGroup;
 			children = (
-				015C15492C20334500B35BB6 /* Mazi */,
+				01ADB36F2C28B5DF00057F45 /* Location+CoreDataClass.swift */,
+				01ADB3702C28B5DF00057F45 /* Location+CoreDataProperties.swift */,
+				015C15492C20334500B35BB6 /* Scout */,
 				015C15632C20339500B35BB6 /* Views */,
 				015C15622C20337B00B35BB6 /* Controllers */,
 				015C15612C20335B00B35BB6 /* Supports */,
@@ -59,18 +75,18 @@
 		015C15482C20334500B35BB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				015C15472C20334500B35BB6 /* Mazi.app */,
+				015C15472C20334500B35BB6 /* Scout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		015C15492C20334500B35BB6 /* Mazi */ = {
+		015C15492C20334500B35BB6 /* Scout */ = {
 			isa = PBXGroup;
 			children = (
 				015C155B2C20334600B35BB6 /* Info.plist */,
-				015C15532C20334500B35BB6 /* Mazi.xcdatamodeld */,
+				015C15532C20334500B35BB6 /* Scout.xcdatamodeld */,
 			);
-			path = Mazi;
+			path = Scout;
 			sourceTree = "<group>";
 		};
 		015C15612C20335B00B35BB6 /* Supports */ = {
@@ -91,6 +107,9 @@
 				01A17F3C2C221C6E00B7FC79 /* AddViewController.swift */,
 				01A17F3E2C221CA900B7FC79 /* ArchiveViewController.swift */,
 				01A17F402C221F5300B7FC79 /* MainTabController.swift */,
+				013719702C24527F0025951D /* addBottomSheetVc.swift */,
+				01D7E83D2C2D5BCF00FE8664 /* HomeBottomSheetController.swift */,
+				0119ABB12C2CAA0D0053CB05 /* CustomAnnotation.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -99,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				015C15502C20334500B35BB6 /* Main.storyboard */,
+				0137196E2C244E360025951D /* addBottomSheet.xib */,
+				01D7E83B2C2D568F00FE8664 /* HomeVCBottomSheet.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		015C15462C20334500B35BB6 /* Mazi */ = {
+		015C15462C20334500B35BB6 /* Scout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 015C155E2C20334600B35BB6 /* Build configuration list for PBXNativeTarget "Mazi" */;
+			buildConfigurationList = 015C155E2C20334600B35BB6 /* Build configuration list for PBXNativeTarget "Scout" */;
 			buildPhases = (
 				015C15432C20334500B35BB6 /* Sources */,
 				015C15442C20334500B35BB6 /* Frameworks */,
@@ -118,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = Mazi;
+			name = Scout;
 			productName = Mazi;
-			productReference = 015C15472C20334500B35BB6 /* Mazi.app */;
+			productReference = 015C15472C20334500B35BB6 /* Scout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 015C15422C20334500B35BB6 /* Build configuration list for PBXProject "Mazi" */;
+			buildConfigurationList = 015C15422C20334500B35BB6 /* Build configuration list for PBXProject "Scout" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				015C15462C20334500B35BB6 /* Mazi */,
+				015C15462C20334500B35BB6 /* Scout */,
 			);
 		};
 /* End PBXProject section */
@@ -161,8 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D7E83C2C2D568F00FE8664 /* HomeVCBottomSheet.xib in Resources */,
 				015C15572C20334600B35BB6 /* Assets.xcassets in Resources */,
 				015C155A2C20334600B35BB6 /* Base in Resources */,
+				0137196F2C244E360025951D /* addBottomSheet.xib in Resources */,
 				015C15522C20334500B35BB6 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,10 +198,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A17F3B2C221C1D00B7FC79 /* HomeViewController.swift in Sources */,
+				013719712C24527F0025951D /* addBottomSheetVc.swift in Sources */,
 				01A17F412C221F5400B7FC79 /* MainTabController.swift in Sources */,
 				01A17F3D2C221C6E00B7FC79 /* AddViewController.swift in Sources */,
 				015C154B2C20334500B35BB6 /* AppDelegate.swift in Sources */,
-				015C15552C20334500B35BB6 /* Mazi.xcdatamodeld in Sources */,
+				01D7E83E2C2D5BCF00FE8664 /* HomeBottomSheetController.swift in Sources */,
+				01ADB3712C28B5DF00057F45 /* Location+CoreDataClass.swift in Sources */,
+				0119ABB22C2CAA0D0053CB05 /* CustomAnnotation.swift in Sources */,
+				01ADB3722C28B5DF00057F45 /* Location+CoreDataProperties.swift in Sources */,
+				015C15552C20334500B35BB6 /* Scout.xcdatamodeld in Sources */,
 				015C154D2C20334500B35BB6 /* SceneDelegate.swift in Sources */,
 				01A17F3F2C221CA900B7FC79 /* ArchiveViewController.swift in Sources */,
 			);
@@ -330,10 +358,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Mazi/Info.plist;
+				INFOPLIST_FILE = Scout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,7 +373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jumageldi.Mazi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumageldi.Scout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,10 +386,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Mazi/Info.plist;
+				INFOPLIST_FILE = Scout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -371,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jumageldi.Mazi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jumageldi.Scout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -382,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		015C15422C20334500B35BB6 /* Build configuration list for PBXProject "Mazi" */ = {
+		015C15422C20334500B35BB6 /* Build configuration list for PBXProject "Scout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015C155C2C20334600B35BB6 /* Debug */,
@@ -391,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		015C155E2C20334600B35BB6 /* Build configuration list for PBXNativeTarget "Mazi" */ = {
+		015C155E2C20334600B35BB6 /* Build configuration list for PBXNativeTarget "Scout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				015C155F2C20334600B35BB6 /* Debug */,
@@ -403,13 +433,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		015C15532C20334500B35BB6 /* Mazi.xcdatamodeld */ = {
+		015C15532C20334500B35BB6 /* Scout.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				015C15542C20334500B35BB6 /* Mazi.xcdatamodel */,
 			);
 			currentVersion = 015C15542C20334500B35BB6 /* Mazi.xcdatamodel */;
-			path = Mazi.xcdatamodeld;
+			path = Scout.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
