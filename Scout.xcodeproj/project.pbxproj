@@ -59,12 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		015C153E2C20334500B35BB6 = {
+		0126843A2C46EAAF00AB39A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				01ADB36F2C28B5DF00057F45 /* Location+CoreDataClass.swift */,
 				01ADB3702C28B5DF00057F45 /* Location+CoreDataProperties.swift */,
-				015C15492C20334500B35BB6 /* Scout */,
+				015C15532C20334500B35BB6 /* Scout.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		015C153E2C20334500B35BB6 = {
+			isa = PBXGroup;
+			children = (
+				0126843A2C46EAAF00AB39A9 /* Model */,
 				015C15632C20339500B35BB6 /* Views */,
 				015C15622C20337B00B35BB6 /* Controllers */,
 				015C15612C20335B00B35BB6 /* Supports */,
@@ -84,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				015C155B2C20334600B35BB6 /* Info.plist */,
-				015C15532C20334500B35BB6 /* Scout.xcdatamodeld */,
 			);
 			path = Scout;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 				015C154C2C20334500B35BB6 /* SceneDelegate.swift */,
 				015C15582C20334600B35BB6 /* LaunchScreen.storyboard */,
 				015C15562C20334600B35BB6 /* Assets.xcassets */,
+				015C15492C20334500B35BB6 /* Scout */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
